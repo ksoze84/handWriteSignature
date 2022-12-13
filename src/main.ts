@@ -8,7 +8,7 @@ function makeid(length:number) {
   return result;
 }
   
-export function handDrawnSign( canvas: HTMLCanvasElement, signString? : string, options? : { usable : number, controlPointProportion : number } ){
+export function handDrawnSign( canvas: HTMLCanvasElement, signString? : string, options? : { usable? : number, controlPointProportion? : number, strokeStyle? : string | CanvasGradient | CanvasPattern, lineWidth? : number  } ){
   if (canvas){
     const ctx = canvas.getContext("2d");
 
@@ -58,7 +58,13 @@ export function handDrawnSign( canvas: HTMLCanvasElement, signString? : string, 
       for (const point of points) {
         ctx.quadraticCurveTo(point.cx, point.cy, point.x, point.y);
       }
+      if (options?.strokeStyle)
+        ctx.strokeStyle = options?.strokeStyle;
+      if( options?.lineWidth )
+        ctx.lineWidth = options?.lineWidth;
+
       ctx.stroke();
+    
     }
     
   }
