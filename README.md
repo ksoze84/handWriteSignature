@@ -13,6 +13,15 @@ yarn add handwrite-signature
 
 ## Example
 
+``` javascript
+handDrawnSign(myCanvas, 'jhonMyers')
+```
+
+results in
+
+![example](https://raw.githubusercontent.com/ksoze84/handWriteSignature/main/example.png)
+
+
 
 ## How to use
 
