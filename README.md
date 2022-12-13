@@ -1,11 +1,11 @@
-# handDrawnSignature
+# handWriteSignature
 
-Hand Drawn signature generator for Canvas HTML element
+Hand Drawn signature generator for Canvas HTML element. Allows to generate the a unique signature from a string or generate a random signature.
 
 ## Installation
 
 ```
-yarn add hand-drawn-signature
+yarn add handwrite-signature
 ```
 
 

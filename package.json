@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ksoze84/handDrawnSignature.git"
+    "url": "git+https://github.com/ksoze84/handWriteSignature.git"
   },
   "keywords": [
     "object",
@@ -41,7 +41,7 @@
     "react"
   ],
   "bugs": {
-    "url": "https://github.com/ksoze84/handDrawnSignature/issues"
+    "url": "https://github.com/ksoze84/handWriteSignature/issues"
   },
-  "homepage": "https://github.com/ksoze84/handDrawnSignature#readme"
+  "homepage": "https://github.com/ksoze84/handWriteSignature#readme"
 }
