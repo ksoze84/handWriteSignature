@@ -8,14 +8,14 @@ function makeid(length:number) {
   return result;
 }
   
-export function handDrawnSign( canvas: HTMLCanvasElement, signString? : string, options? : { usable? : number, controlPointProportion? : number, strokeStyle? : string | CanvasGradient | CanvasPattern, lineWidth? : number  } ){
+export function handDrawnSign( canvas: HTMLCanvasElement, signString? : string, options? : { usableProportionArea? : number, controlPointProportion? : number, strokeStyle? : string | CanvasGradient | CanvasPattern, lineWidth? : number  } ){
   if (canvas){
     const ctx = canvas.getContext("2d");
 
     if ( ctx ) {
 
       const points = [];
-      const usable = options?.usable || 0.5;
+      const usable = options?.usableProportionArea || 0.5;
       const controlPointProportion = options?.controlPointProportion || 1.3 ;
       
       let i = 0;
