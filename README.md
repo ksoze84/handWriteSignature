@@ -2,6 +2,8 @@
 
 Hand Drawn signature generator for Canvas HTML element. Allows to generate the a unique signature from a string or generate a random signature.
 
+Generate a stroke from points and curves. This is NOT based on fonts.
+
 ## Installation
 
 ```
