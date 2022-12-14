@@ -1,6 +1,6 @@
 {
   "name": "handwrite-signature",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Hand Drawn signature generator",
   "main": "lib/main.js",
   "module": "lib/main.esm.js",
@@ -34,11 +34,12 @@
     "url": "git+https://github.com/ksoze84/handWriteSignature.git"
   },
   "keywords": [
-    "object",
-    "class",
-    "hook",
-    "state",
-    "react"
+    "handwrite",
+    "hand",
+    "draw",
+    "signature",
+    "generator",
+    "canvas"
   ],
   "bugs": {
     "url": "https://github.com/ksoze84/handWriteSignature/issues"
