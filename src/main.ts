@@ -52,16 +52,19 @@ export function handDrawnSign( canvas: HTMLCanvasElement, signString? : string, 
         i++;
       }
 
+      //style
+      if (options?.strokeStyle)
+        ctx.strokeStyle = options?.strokeStyle;
+      if( options?.lineWidth )
+        ctx.lineWidth = options?.lineWidth;
+
       //draw
       ctx.beginPath();
       ctx.moveTo(points[0].x, points[0].y);
       for (const point of points) {
         ctx.quadraticCurveTo(point.cx, point.cy, point.x, point.y);
       }
-      if (options?.strokeStyle)
-        ctx.strokeStyle = options?.strokeStyle;
-      if( options?.lineWidth )
-        ctx.lineWidth = options?.lineWidth;
+      
 
       ctx.stroke();
     
