@@ -1,6 +1,6 @@
 {
   "name": "handwrite-signature",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Hand Drawn signature generator",
   "main": "lib/main.js",
   "module": "lib/main.esm.js",
